@@ -1,0 +1,22 @@
+{
+  "name": "fem-easybank-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vk196/fem-easybank-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vk196/fem-easybank-landing-page/issues"
+  },
+  "homepage": "https://github.com/vk196/fem-easybank-landing-page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
