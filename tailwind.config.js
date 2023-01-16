@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  content: ["./*.html"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
@@ -23,7 +23,6 @@ module.exports = {
         'grayish-blue': 'hsl(233, 8%, 62%)',
         'light-grayish-blue': 'hsl(220, 16%, 96%)',
         'very-light-gray': 'hsl(0, 0%, 98%)',
-        'current': 'hsl(136, 65%, 51%)'
       }
     },
     screens: {
