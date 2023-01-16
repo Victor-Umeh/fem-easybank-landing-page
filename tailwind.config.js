@@ -9,8 +9,8 @@ module.exports = {
         'public': 'Public Sans'
       },
       backgroundImage: {
-        'intro': "url('../assets/images/bg-intro-mobile.svg')",
-        'intro-md': "url('../assets/images/bg-intro-desktop.svg')",
+        'intro': "url('assets/images/bg-intro-mobile.svg')",
+        'intro-md': "url('assets/images/bg-intro-desktop.svg')",
       },
 
     colors: {
