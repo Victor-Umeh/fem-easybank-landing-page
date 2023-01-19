@@ -5,12 +5,17 @@ module.exports = {
   darkMode: 'media', // or 'class'
   theme: {
     extend: {
-      fontFamily: {
-        'public': 'Public Sans'
+      scale: {
+        '102': '1.02',
       },
+
+      fontFamily: {
+        'public': 'Public Sans',
+      },
+
       backgroundImage: {
-        'intro': "url('index.html/assets/images/bg-intro-mobile.svg')",
-        'intro-md': "url('index.html/assets/images/bg-intro-desktop.svg')",
+        'intro': "url('/assets/images/bg-intro-mobile.svg')",
+        'intro-md': "url('/assets/images/bg-intro-desktop.svg')"
       },
 
     colors: {
